@@ -8,20 +8,20 @@ services:
       replicas: 3
     dth:
       image: ganesh09876/devops:v2
-    ports:
-      - "85:80"
-    deploy:
-      replicas: 3
+      ports:
+        - "85:80"
+      deploy:
+        replicas: 3
     recharge:
       image: ganesh09876/aws:v3
-    ports:
-      - "86:80"
-    deploy:
-      replicas: 3
+      ports:
+        - "86:80"
+      deploy:
+        replicas: 3
     paytm:
       image: ganesh09876/paytm:v4
-    ports:
-      - "87:80"
-    deploy:
-      replicas: 3
+      ports:
+        - "87:80"
+      deploy:
+        replicas: 3
 
