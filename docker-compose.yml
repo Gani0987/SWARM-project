@@ -6,7 +6,7 @@ services:
       - "84:80"
     deploy:
       replicas: 3
-    dth:
+    environment:
       image: ganesh09876/devops:v2
       ports:
         - "85:80"
