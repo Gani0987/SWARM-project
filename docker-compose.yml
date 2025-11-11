@@ -18,10 +18,10 @@ services:
       - "86:80"
     deploy:
       replicas: 3
-     paytm:
-       image: ganesh09876/paytm:v4
-       ports:
-         - "87:80"
-       deploy:
-         replicas: 3
+    paytm:
+      image: ganesh09876/paytm:v4
+    ports:
+      - "87:80"
+    deploy:
+      replicas: 3
 
